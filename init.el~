@@ -72,7 +72,7 @@
 (require 'emms-history)
 (emms-history-load)
 (require 'emms-source-file)
-(setq emms-source-file-default-directory "~/../music")
+(setq emms-source-file-default-directory "C:/users/kruft/music")
 
 ;; testing nXML for XAML mode
 (setq auto-mode-alist (cons '("\.xaml$" . nxml-mode) auto-mode-alist))
